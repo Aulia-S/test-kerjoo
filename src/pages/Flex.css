@@ -1,0 +1,17 @@
+.flex-item {
+	flex: 1;
+}
+
+/* Tablet version */
+@media (min-width: 768px) {
+	.buttons {
+		flex: 100%;
+	}
+}
+
+/* Tablet version */
+@media (min-width: 992px) {
+	.buttons {
+		flex: 1;
+	}
+}
